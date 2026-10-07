@@ -34,6 +34,12 @@ project needs, including pytest.
 uv run main.py
 ```
 
+or use the installed command:
+
+```bash
+uv run python1
+```
+
 Example session:
 
 ```text
@@ -65,10 +71,11 @@ python1/
 ├── src/
 │   └── python1/
 │       ├── __init__.py
-│       └── calculator.py     # Pure calculator functions
+│       ├── calculator.py     # Pure calculator functions
+│       └── cli.py            # Interactive menu
 ├── tests/
 │   └── test_calculator.py    # pytest test cases
-├── main.py                   # Interactive menu (entry point)
+├── main.py                   # Entry point: runs the menu
 ├── pyproject.toml            # Project metadata and dependencies
 └── uv.lock                   # Exact dependency versions
 ```

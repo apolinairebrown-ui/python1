@@ -1,13 +1,13 @@
 [project]
 name = "python1"
 version = "0.1.0"
-description = "Add your description here"
+description = "A menu-driven command-line calculator"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-python1 = "python1:main"
+python1 = "python1.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.22,<0.13.0"]

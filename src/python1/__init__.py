@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from python1!")
+"""Multifunction calculator package."""
